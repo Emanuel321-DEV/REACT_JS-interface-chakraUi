@@ -23,11 +23,13 @@ export function Continent ({ mainImage, qtdCountry, qtdLanguages, qtdCities, des
                 
                 <Heading 
                     position="absolute" 
-                    top="450" 
+                    top={["150", "450"]} 
                     color="white"
-                    ml="20"
+                    ml={["10", "20"]}
                     >{nameContinent}</Heading>
-            
+                    
+
+
             </Box>
             
             <Flex 
@@ -36,7 +38,7 @@ export function Continent ({ mainImage, qtdCountry, qtdLanguages, qtdCities, des
                 width="90%" 
                 gap="10" 
                 alignItems="center"
-                padding="20"
+                padding={["10","20"]}
             >
 
                 <Text display="block" width="100%">

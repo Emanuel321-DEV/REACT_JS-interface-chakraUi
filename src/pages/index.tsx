@@ -138,7 +138,7 @@ const Home: NextPage = () => {
                     right="0"
                     width={300}
                     m="auto"
-                    height={1}
+                    height={[10,1]}
                   >
                       <Heading textAlign="center">América do Norte</Heading>
                   </Box>
@@ -173,7 +173,7 @@ const Home: NextPage = () => {
                           right="0"
                           width={300}
                           m="auto"
-                          height={1}
+                          height={[10,1]}
                       >
                           <Heading textAlign="center">América do Sul</Heading>
                         </Box>
@@ -209,7 +209,7 @@ const Home: NextPage = () => {
                           right="0"
                           width={300}
                           m="auto"
-                          height={1}
+                          height={[10,1]}
                         >
                           <Heading textAlign="center">Europa</Heading>
                         </Box>
